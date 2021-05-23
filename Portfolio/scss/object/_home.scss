@@ -1,0 +1,25 @@
+.home{
+  background-image: url(../image/home.jpeg);
+  background-position: right 25% bottom 50%;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  .home-title{
+    font-size: 60px;
+    color: cl(white);
+    text-shadow:1px 1px 0 cl(winered),-1px 1px 0 cl(winered),1px -1px 0 cl(winered),-1px -1px 0 cl(winered);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+    @include overTab{
+      top: 40%;
+      font-size: 75px;
+      letter-spacing: 10px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.profile{
+  text-align: center;
+  justify-content: center;
+  .inner{
+    .profile-cont{
+      display: flex;
+      flex-flow: column-reverse;
+      @include overTab{
+        flex-flow: row-reverse;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+      }
+      .profile-text{
+        margin-left: 0;
+        padding-right: 0;
+        @include overTab{
+          margin-left: 50px;
+          padding-right: 25px;
+        }
+        p{
+          margin-top: 25px;
+          font-size: 18px;
+          @include overTab{
+            font-size: 20px;
+          }
+          span{
+            font-weight: 600;
+          }
+        }
+      }
+      .profile-image{
+        margin-top: 25px;
+        img{
+          border-radius: 50%;
+          max-width: 400px;
+          border: 1px solid cl(lightgrey);
+        }
+      }
+    }
+  }
+}

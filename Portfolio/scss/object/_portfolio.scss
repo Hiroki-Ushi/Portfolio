@@ -1,0 +1,52 @@
+.portfolio{
+  text-align: center;
+  .inner{
+    .portfolio-cont{
+      .portfolio-list{
+        @include overTab{
+          display: flex;
+          justify-content: space-between;
+        }
+        .portfolio-item{
+          margin-top: 50px;
+          display: flex;
+          flex-flow: column-reverse;
+          border: 1px solid cl(gray2);
+          @include overTab{
+            margin-right: 25px;
+            margin-left: 25px;
+          }
+          .portfolio-word{
+            margin-top: 25px;
+            padding-bottom: 25px;
+            @include overTab{
+              height: 87px;
+            }
+            .portfolio-tile{
+
+            }
+            .portfolio-text{
+              padding-top: 5px;
+              padding-right: 15px;
+              padding-left: 15px;
+              p{
+
+              }
+            }
+          }
+          .portfolio-image{
+            a{
+              img{
+
+              }
+            }
+            a:hover{
+              opacity: 0.75;
+              color: cl(white);
+            }
+          }
+        }
+      }
+    }
+  }
+}

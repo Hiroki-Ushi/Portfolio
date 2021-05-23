@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <title>Portfolio Site</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header id="top">
+    <div class="header-fixed">
+      <a href="#"><h1 class="header-title">Portfolio Site</h1></a>
+      <button class="nav-btn" id="nav-btn" type="button" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="header-nav" id="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#top">Top</a></li>
+        <li class="nav-item"><a href="#profile">Profile</a></li>
+        <li class="nav-item"><a href="#skills">Skills</a></li>
+        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <div class="home">
+      <div class="home-title">Welcome to My Portfolio</div>
+    </div>
+    <!-- Profile -->
+    <section class="profile cmn-section" id="profile">
+      <div class="inner">
+        <h2 class="cmn-title">Profile</h2>
+        <div class="profile-cont">
+          <div class="profile-text">
+            <p>初めまして、<br><span>牛尼洸希(ウシアマヒロキ)</span>と申します。<br>1997年生まれ長野県出身の23歳です。</p>
+            <p>東海大学工学部精密工学科を卒業し、<br>大手機械メーカーで約10ヶ月従事していました。</p>
+            <p>退職後から現在に至るまでは、<br>オンラインスクールでWeb制作に必要なコーディングスキルを学習しました。</p>
+          </div>
+          <div class="profile-image"><img src="./image/profile.JPG" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills cmn-section" id="skills">
+      <div class="inner">
+        <h2 class="cmn-title">Skills</h2>
+        <div class="skills-cont">
+          <ul class="skills-list">
+            <li class="skills-item">
+              <div class="skills-word">
+                <h3 class="skills-title cmn-h3">【HTML&CSS】</h3>
+                <div class="skills-text">
+                  <p>Emmet、Sassを使い、<br>効率的なコーディングを行います。<br>また、レスポンシブにも対応します。</p>
+                </div>
+              </div>
+              <div class="skills-icon">
+                <i class="fab fa-html5 fa-9x"></i>
+                <i class="fab fa-css3-alt fa-9x"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="skills-word">
+                <h3 class="skills-title cmn-h3">【JavaScript(jQuery)】</h3>
+                <div class="skills-text">
+                  <p>スライダーやアコーディオンなど、<br>サイトに動きをつけるアニメーションの<br>実装ができます。</p>
+                </div>
+              </div>
+              <div class="skills-icon">
+                <i class="fab fa-js fa-9x"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="skills-word">
+                <h3 class="skills-title cmn-h3">【Wordpress】</h3>
+                <div class="skills-text">
+                  <p>LPのみでなく、Wordpressを使用したHP構築も可能です。</p>
+                </div>
+              </div>
+              <div class="skills-icon">
+                <i class="fab fa-wordpress fa-9x"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="skills-word">
+                <h3 class="skills-title cmn-h3">【Webデザイン、Webマーケティング】<br>※Learning Now</h3>
+                <div class="skills-text">
+                  <p>現在PhotoshopやIllustratorのデザインスキルに加え、<br>SEOなどのWebマーケティング知識も学習中です。</p>
+                </div>
+              </div>
+              <div class="skills-icon">
+                <i class="far fa-object-ungroup fa-9x"></i>
+                <i class="fas fa-chart-line fa-9x"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio cmn-section" id="portfolio">
+      <div class="inner">
+        <h2 class="cmn-title">Portfolio</h2>
+        <div class="portfolio-cont">
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <div class="portfolio-word">
+                <h3 class="portfolio-title cmn-h3">【本サイト(LPサイト)】</h3>
+                <div class="portfolio-text">
+                  <p>現在ご覧いただいているポートフォリオサイトです。</p>
+                </div>
+              </div>
+              <div class="portfolio-image">
+                <a href="#"><img src="./image/portfolio-portfolio.png" alt=""></a>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-word">
+                <h3 class="portfolio-title cmn-h3">【極楽亭(HPサイト)】</h3>
+                <div class="portfolio-text">
+                  <p>スクールの最終課題にて作成した架空の温泉旅館サイトです。<br>※お問い合わせとブログ機能の実装です。</p>
+                </div>
+              </div>
+              <div class="portfolio-image">
+                <a href="https://ushi-web-production.com/" target="_blank"><img src="./image/portfolio-gokurakutei.png" alt=""></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer id="contact">
+    <div class="inner cmn-section">
+      <div class="contact">
+        <h2 class="cmn-title">Contact</h2>
+        <div class="contact-text">
+          <p>ご連絡、お問い合わせは下記メールよりお願いいたします。</p>
+        </div>
+        <div class="contact-form">
+          <a href="mailto:hiroki.ushi.3015@gmail.com" class="contact-form-icon"><i class="fas fa-envelope fa-2x"></i></a>
+          <p>Mail:<a href="mailto:hiroki.ushi.3015@gmail.com">hiroki.ushi.3015@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">copyright (c) 2021 My Portfolio All Right Reserved.</p>
+  </footer>
+</body>
+</html>
